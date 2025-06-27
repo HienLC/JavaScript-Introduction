@@ -20,19 +20,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const gre = a >= b;
 
         result.innerHTML = `
-            a + b = ${sum} <br>
-            a - b = ${dif} <br>
-            a * b = ${mul} <br>
-            a / b = ${div} <br>
-            a % b = ${rem} <br>
-            a == b = ${equ} <br>
-            a === b = ${sam} <br>
-            a != b = ${diff} <br>
-            a !== b = ${difft} <br>
-            a < b = ${sma} <br>
-            a > b = ${big} <br>
-            a <= b = ${les} <br>
-            a >= b = ${gre} <br>            
+            <b>Tổng:</b> a + b = ${sum} <br>
+            <b>Hiệu:</b> a - b = ${dif} <br>
+            <b>Tích:</b> a * b = ${mul} <br>
+            <b>Thương:</b> a / b = ${div} <br>
+            <b>Chia lấy dư:</b> a % b = ${rem} <br>
+            <b>Bằng (so sánh giá trị):</b> a == b = ${equ} <br>
+            <b>Bằng (so sánh giá trị và kiểu):</b> a === b = ${sam} <br>
+            <b>Không bằng (so sánh giá trị):</b> a != b = ${diff} <br>
+            <b>Không bằng (so sánh giá trị và kiểu):</b> a !== b = ${difft} <br>
+            <b>Nhỏ hơn:</b> a < b = ${sma} <br>
+            <b>Lớn hơn:</b> a > b = ${big} <br>
+            <b>Nhỏ hơn hoặc bằng:</b> a <= b = ${les} <br>
+            <b>Lớn hơn hoặc bằng:</b> a >= b = ${gre} <br>            
         `;
     });
 });
